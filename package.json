@@ -7,15 +7,16 @@
   "files": ["dist"],
   "scripts": {
     "build": "tsc",
+    "build:dev": "tsc",
     "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uniquebeing-base-eth/stx-tip-jar"
+    "url": "https://github.com/uniquebeing-base-eth/stackstipjar-sdk"
   },
-  "homepage": "https://github.com/uniquebeing-base-eth/stx-tip-jar#readme",
+  "homepage": "https://github.com/uniquebeing-base-eth/stackstipjar-sdk#readme",
   "bugs": {
-    "url": "https://github.com/uniquebeing-base-eth/stx-tip-jar/issues"
+    "url": "https://github.com/uniquebeing-base-eth/stackstipjar-sdk/issues"
   },
   "keywords": [
     "stacks",
