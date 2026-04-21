@@ -8,7 +8,7 @@ export interface GetBalanceOptions {
 }
 
 export interface BalanceResult {
-  /** Wallet address queried. */
+  /** Wallet addresses queried. */
   address: string;
   /** Balance in microSTX (raw, as string to avoid precision loss). */
   microStx: string;
