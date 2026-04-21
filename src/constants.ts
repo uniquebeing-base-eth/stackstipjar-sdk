@@ -1,5 +1,5 @@
 /**
- * Number of decimals used by STX (1 STX = 1,000,000 microSTX).
+ * Numbers of decimals used by STX (1 STX = 1,000,000 microSTX).
  */
 export const STX_DECIMALS = 6;
 
