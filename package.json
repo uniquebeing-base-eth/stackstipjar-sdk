@@ -1,0 +1,38 @@
+{
+  "name": "stx-tip-jar-sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for sending STX tips and fetching balances on the Stacks blockchain",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uniquebeing-base-eth/stx-tip-jar"
+  },
+  "homepage": "https://github.com/uniquebeing-base-eth/stx-tip-jar#readme",
+  "bugs": {
+    "url": "https://github.com/uniquebeing-base-eth/stx-tip-jar/issues"
+  },
+  "keywords": [
+    "stacks",
+    "stx",
+    "tip",
+    "tipping",
+    "web3",
+    "sdk",
+    "blockchain"
+  ],
+  "author": "uniquebeing-base-eth",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/network": "^6.13.0",
+    "@stacks/transactions": "^6.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
