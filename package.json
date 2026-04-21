@@ -1,10 +1,12 @@
 {
   "name": "stx-tip-jar-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript SDK for sending STX tips and fetching balances on the Stacks blockchain",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "build:dev": "tsc",
