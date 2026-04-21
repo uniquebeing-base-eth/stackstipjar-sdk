@@ -4,6 +4,8 @@ TypeScript SDK for sending **STX tips** and fetching balances on the [Stacks](ht
 
 Built on top of [`@stacks/transactions`](https://www.npmjs.com/package/@stacks/transactions) and [`@stacks/network`](https://www.npmjs.com/package/@stacks/network), exposed as a small, framework-agnostic API.
 
+Repository: https://github.com/uniquebeing-base-eth/stackstipjar-sdk
+
 ## Installation
 
 ```bash
